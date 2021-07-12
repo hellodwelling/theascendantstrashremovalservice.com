@@ -231,15 +231,6 @@
                     <br>
                 </div>
             	
-            
-                <div class="mb-30 mx-auto w-1/3 " data-aos="fade-down" data-aos-delay="400">
-                    <span class = " text-blue-400 "> <i class="fas fa-certificate fa-2x"></i> </span>                  
-                    
-                    <div class="mt-5 text-md font-bold uppercase  text-blue-400 ">
-                        Black Owned Business
-                    </div>
-                    <br>
-                </div>
             	
             
             
@@ -348,76 +339,83 @@
             <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
                 <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
                 <h2 class="my-3 mb-10 text-xl font-medium  text-blue-400  text-center">See why our customers love us</h2>
-                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/W1RB0S0V7CNWMFTFT75UI4061D5DRMT9QZECVUXE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PF8LWRR00850VGV3P4B108BQT9PND2H1MH8AUMLS.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/K02XFG68WYSFICRXF24HZCGMI33D3HAK4TJYXO2A.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SDUV0TGGB3HFRZQFMOBFV1PSYJ8CTP1YGUFJHKP0.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3KITPA27YT5ZAY25UIU3JRH4ZNPNQQO8FHMUK08P.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RQONAUON4QIDSCJIZPOLF3ZM72JWYFC90KRFMMAI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LR8H8R2HQYNE8LM3DIYWLLURPU5JQKXWWDWOPF0Q.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5DO2VHC9NC4QFOS23GI7E6MEE0V73ZBVVF6LIFN1.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/P0F27HFSOVNRFJMI5LKVDPBY6DPU5STVSL2FP3Q0.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KJSRJ118R1WAK520RTXBFNVQR9N5OJLIHIIHH7BT.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/V5U0Q2I0Q1O4JA4UP19CB9IOULLT3L4YFCMDG9GE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/A92GYBA727O178BLWMN57JGXDLK1KAXD5QMO3N4I.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0818LF3EDA2F0SZMC0795HA2RTAKFBT0R2YO2OAB.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8R6W1CHLCATOBLPQYT3UROH0FYPJJZTEEEF4KHAT.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/W1RB0S0V7CNWMFTFT75UI4061D5DRMT9QZECVUXE.jpeg', 'photo'],      [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PF8LWRR00850VGV3P4B108BQT9PND2H1MH8AUMLS.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/K02XFG68WYSFICRXF24HZCGMI33D3HAK4TJYXO2A.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SDUV0TGGB3HFRZQFMOBFV1PSYJ8CTP1YGUFJHKP0.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3KITPA27YT5ZAY25UIU3JRH4ZNPNQQO8FHMUK08P.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RQONAUON4QIDSCJIZPOLF3ZM72JWYFC90KRFMMAI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LR8H8R2HQYNE8LM3DIYWLLURPU5JQKXWWDWOPF0Q.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/5DO2VHC9NC4QFOS23GI7E6MEE0V73ZBVVF6LIFN1.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/P0F27HFSOVNRFJMI5LKVDPBY6DPU5STVSL2FP3Q0.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KJSRJ118R1WAK520RTXBFNVQR9N5OJLIHIIHH7BT.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/V5U0Q2I0Q1O4JA4UP19CB9IOULLT3L4YFCMDG9GE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/A92GYBA727O178BLWMN57JGXDLK1KAXD5QMO3N4I.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0818LF3EDA2F0SZMC0795HA2RTAKFBT0R2YO2OAB.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8R6W1CHLCATOBLPQYT3UROH0FYPJJZTEEEF4KHAT.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                         
                             
                                   
                             <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/W1RB0S0V7CNWMFTFT75UI4061D5DRMT9QZECVUXE.jpeg"  alt = "Photo number 1 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
-                            
-                                  
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PF8LWRR00850VGV3P4B108BQT9PND2H1MH8AUMLS.jpeg"  alt = "Photo number 2 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40">
+                                <video class="rounded shadow-md object-cover w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Boochies_portfolio.pdf" >
+                                </video>
+                            </div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/K02XFG68WYSFICRXF24HZCGMI33D3HAK4TJYXO2A.jpeg"  alt = "Photo number 3 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PF8LWRR00850VGV3P4B108BQT9PND2H1MH8AUMLS.jpeg"  alt = "Photo number 2 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SDUV0TGGB3HFRZQFMOBFV1PSYJ8CTP1YGUFJHKP0.jpeg"  alt = "Photo number 4 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/K02XFG68WYSFICRXF24HZCGMI33D3HAK4TJYXO2A.jpeg"  alt = "Photo number 3 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3KITPA27YT5ZAY25UIU3JRH4ZNPNQQO8FHMUK08P.jpeg"  alt = "Photo number 5 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SDUV0TGGB3HFRZQFMOBFV1PSYJ8CTP1YGUFJHKP0.jpeg"  alt = "Photo number 4 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RQONAUON4QIDSCJIZPOLF3ZM72JWYFC90KRFMMAI.jpeg"  alt = "Photo number 6 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3KITPA27YT5ZAY25UIU3JRH4ZNPNQQO8FHMUK08P.jpeg"  alt = "Photo number 5 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LR8H8R2HQYNE8LM3DIYWLLURPU5JQKXWWDWOPF0Q.jpeg"  alt = "Photo number 7 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RQONAUON4QIDSCJIZPOLF3ZM72JWYFC90KRFMMAI.jpeg"  alt = "Photo number 6 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5DO2VHC9NC4QFOS23GI7E6MEE0V73ZBVVF6LIFN1.jpeg"  alt = "Photo number 8 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LR8H8R2HQYNE8LM3DIYWLLURPU5JQKXWWDWOPF0Q.jpeg"  alt = "Photo number 7 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/P0F27HFSOVNRFJMI5LKVDPBY6DPU5STVSL2FP3Q0.jpeg"  alt = "Photo number 9 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5DO2VHC9NC4QFOS23GI7E6MEE0V73ZBVVF6LIFN1.jpeg"  alt = "Photo number 8 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KJSRJ118R1WAK520RTXBFNVQR9N5OJLIHIIHH7BT.jpeg"  alt = "Photo number 10 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/P0F27HFSOVNRFJMI5LKVDPBY6DPU5STVSL2FP3Q0.jpeg"  alt = "Photo number 9 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/V5U0Q2I0Q1O4JA4UP19CB9IOULLT3L4YFCMDG9GE.jpeg"  alt = "Photo number 11 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KJSRJ118R1WAK520RTXBFNVQR9N5OJLIHIIHH7BT.jpeg"  alt = "Photo number 10 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/A92GYBA727O178BLWMN57JGXDLK1KAXD5QMO3N4I.jpeg"  alt = "Photo number 12 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/V5U0Q2I0Q1O4JA4UP19CB9IOULLT3L4YFCMDG9GE.jpeg"  alt = "Photo number 11 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0818LF3EDA2F0SZMC0795HA2RTAKFBT0R2YO2OAB.jpeg"  alt = "Photo number 13 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/A92GYBA727O178BLWMN57JGXDLK1KAXD5QMO3N4I.jpeg"  alt = "Photo number 12 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                                         
                             
                                   
-                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8R6W1CHLCATOBLPQYT3UROH0FYPJJZTEEEF4KHAT.jpeg"  alt = "Photo number 14 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0818LF3EDA2F0SZMC0795HA2RTAKFBT0R2YO2OAB.jpeg"  alt = "Photo number 13 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        
+                                        
+                            
+                                  
+                            <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8R6W1CHLCATOBLPQYT3UROH0FYPJJZTEEEF4KHAT.jpeg"  alt = "Photo number 14 of The Ascendants Trash Removal Service LLC&#x27;s best work performing a null job"   loading="lazy" ></div>
                         
                      
                                         
